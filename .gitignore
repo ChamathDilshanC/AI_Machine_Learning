@@ -1,0 +1,54 @@
+# Sensitive configuration files
+.env
+config.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files (too large for git)
+*.joblib
+*.pkl
+*.h5
+*.pb
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Google Cloud credentials
+*-key.json
+*.json.key
+credentials.json
+
+# Data files (can be large)
+*.csv
+*.xlsx
+*.xls
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
