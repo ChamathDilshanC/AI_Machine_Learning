@@ -130,7 +130,8 @@ cp .env.example .env
 **The root directory has NO configuration files.**
 
 All configuration is directory-specific:
-- ✅ Only documentation files (*.md)
+
+- ✅ Only documentation files (\*.md)
 - ✅ Only `.gitignore` and `requirements.txt`
 - ✅ No `.env` or `config.py` at root level
 
